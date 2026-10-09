@@ -1,15 +1,8 @@
 .hero {
   background-color: #2e2f42;
-}
-
-.hero-title {
-  font-weight: 700;
-  font-style: normal;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
+  padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
-  color: #ffffff;
 }
 
 .hero-btn {
@@ -19,6 +12,21 @@
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.hero-title {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px; /* відступ вниз до кнопки згідно з макетом */
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 

@@ -1,5 +1,4 @@
-/*/=====reset code=====/*/
-
+/* Базове скидання та нормалізація */
 h1,
 h2,
 h3,
@@ -10,16 +9,23 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-a {
-  text-decoration: none;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
+/* Приховування заголовків з ТЗ */
 .sr-only {
   position: absolute;
   white-space: nowrap;
@@ -33,21 +39,16 @@ a {
   margin: -1px;
 }
 
-/*/=====reset code=====/*/
-
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* Секція та головний обмежувач */
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

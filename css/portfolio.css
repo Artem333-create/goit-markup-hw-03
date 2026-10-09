@@ -21,3 +21,23 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.portfolio-content {
+  width: 360px;
+  height: 120px;
+  padding: 32px 16px;
+  gap: 8px;
+  border-width: 0 1px 1px 1px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  border-bottom: none;
+  border-top: none;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
