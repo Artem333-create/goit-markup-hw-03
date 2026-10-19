@@ -1,4 +1,5 @@
 .team-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -16,6 +17,10 @@
 }
 
 .team-subtitle {
+  width: 264px;
+  padding: 16px;
+  gap: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;

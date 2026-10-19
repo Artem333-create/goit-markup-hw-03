@@ -52,3 +52,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
