@@ -27,17 +27,18 @@
   width: 360px;
   padding: 16px;
   gap: 8px;
-  border-width: 0 1px 1px 1px;
-  display: flex;
-  text-align: left;
-  flex-direction: column;
-  border-bottom: none;
-  border-top: none;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   justify-content: center;
 }
