@@ -9,8 +9,6 @@
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 15px;
 }
 
 /* ==========================================================
@@ -24,6 +22,10 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header .logo {
+  margin-right: 76px;
   color: #2e2f42;
 }
 
@@ -35,24 +37,31 @@
    NAVIGATION & CONTACT LISTS
    ========================================================== */
 
-.nav-list,
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .contacts-list {
   display: flex;
   gap: 40px;
-  list-style: none;
+  font-style: normal;
 }
 
 .contacts {
+  margin-left: auto;
   font-style: normal;
 }
 
 /* ==========================================================
-   LINKS (НАВІГАЦІЯ ТА КОНТАКТИ)
+   LINKS (NAVIGATION & CONTACT)
    ========================================================== */
 
 .nav-link {
   display: block;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -69,7 +78,9 @@
 
 .contact-link {
   display: block;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
